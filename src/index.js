@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+import PhoneApp from './containers/PhoneApp';
+import './vendor/photon/css/photon.min.css';
+import './vendor/index.css';
 
 ReactDOM.render(
-  <App />,
+  <PhoneApp />,
   document.getElementById('root')
 );
